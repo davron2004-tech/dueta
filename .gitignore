@@ -1,0 +1,6 @@
+notebook.ipynb
+.env
+.DS_Store
+.venv/
+.pytest_cache/
+generation_config/
