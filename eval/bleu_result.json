@@ -1,0 +1,60 @@
+[
+    {
+        "model": "davron04/gemma-3-270m-dueta",
+        "source_language": "english",
+        "target_language": "uzbek",
+        "bleu_result": {
+            "score": 12.548424280985673,
+            "counts": [
+                9091,
+                3613,
+                1571,
+                681
+            ],
+            "totals": [
+                19838,
+                18826,
+                17814,
+                16802
+            ],
+            "precisions": [
+                45.826192156467386,
+                19.1915436099012,
+                8.818906478050971,
+                4.053088917985954
+            ],
+            "bp": 0.9423951828457616,
+            "sys_len": 19838,
+            "ref_len": 21015
+        }
+    },
+    {
+        "model": "davron04/gemma-3-270m-dueta",
+        "source_language": "uzbek",
+        "target_language": "english",
+        "bleu_result": {
+            "score": 16.131483047877392,
+            "counts": [
+                12773,
+                5299,
+                2591,
+                1372
+            ],
+            "totals": [
+                25959,
+                24947,
+                23935,
+                22923
+            ],
+            "precisions": [
+                49.20451481181864,
+                21.24103098568966,
+                10.825151451848757,
+                5.985254984077128
+            ],
+            "bp": 1.0,
+            "sys_len": 25959,
+            "ref_len": 24721
+        }
+    }
+]

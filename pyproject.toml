@@ -7,6 +7,7 @@ requires-python = ">=3.10"
 dependencies = [
     "accelerate>=1.13.0",
     "datasets>=4.8.5",
+    "evaluate>=0.4.6",
     "huggingface-hub>=1.17.0",
     "ipykernel>=7.2.0",
     "ipywidgets>=8.1.8",
@@ -15,6 +16,7 @@ dependencies = [
     "nbformat>=5.10.4",
     "peft>=0.19.1",
     "python-dotenv>=1.2.2",
+    "sacrebleu>=2.6.0",
     "torch>=2.12.0",
     "tqdm>=4.67.3",
     "transformers>=5.9.0",
